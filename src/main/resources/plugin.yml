@@ -1,0 +1,16 @@
+name: BedSpawn
+description: Teleport to your bed spawn via /home
+author: StarTux
+version: 0.1
+api-version: 1.13
+website: http://cavetale.com
+main: com.cavetale.bedspawn.BedSpawnPlugin
+depend: []
+softdepend: []
+commands:
+  home:
+    aliases: []
+    description: Warp to your bed spawn
+    usage: |-
+      Usage:
+      /home - Warp to your bed spawn
