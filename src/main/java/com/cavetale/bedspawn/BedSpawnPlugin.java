@@ -11,7 +11,7 @@ public final class BedSpawnPlugin extends JavaPlugin {
     public boolean onCommand(CommandSender sender, Command command, String alias, String[] args) {
         if (!(sender instanceof Player)) return true;
         if (args.length != 0) return false;
-        Player player = (Player)sender;
+        Player player = (Player) sender;
         if (player.getBedSpawnLocation() == null) {
             player.sendMessage(ChatColor.RED + "You do not have a bed spawn. Sleep in a bed first.");
             return true;
